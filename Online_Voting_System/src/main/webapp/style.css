@@ -1,0 +1,139 @@
+body{
+	margin:0;
+	font-size:30px;
+	background-image: url("https://cdn.pixabay.com/photo/2018/08/15/07/19/indian-flag-3607410__480.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-bottom:30px;
+}
+.vote-element{
+	overflow:auto;
+	font-size:30px;
+	margin-left:0;
+	margin-top:20%;
+	margin-bottom:20%;
+	
+}
+.nav-bar{
+	color:white;
+	overflow:auto;
+	justify-content:right;
+	padding:20px ;
+	font-size:20px;
+	background-color:#FF731D;
+	position: absolute; /* Set the navbar to fixed position */
+  	top: 0; /* Position the navbar at the top of the page */
+  	width: 100%;
+}
+
+.nav-bar a{
+	margin-left:30px;
+	margin-right:20px;
+	cursor:pointer;
+	color:white;
+}
+
+
+.form-container{
+	width:40%;
+	height:20%;
+	display:flex;
+	justify-content:center;
+	background-color:#FFF7E9;
+	border-radius:40px;
+	margin-left:50%;
+	margin-top:120px;
+	padding-top:50px;
+	padding-left:50px;
+	padding-bottom:50px;
+}
+
+.form-container h3{
+	margin-left:0;
+}
+
+.form-elements{
+	font-size:30px;
+	margin-left:0;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:2px;
+	border-radius:30px;
+	height:50px;
+}
+
+.form-label{
+	margin-left:0;
+}
+
+.form-input{
+	text-align:center;
+	background-color:#5F9DF7;
+	width:80%;
+}
+
+.form-button{
+	background-color:#5F9DF7;
+	width:80%;
+	cursor:pointer;
+}
+
+.form-container a{
+	color:black;
+	cursor:pointer;
+	margin-top:35px;
+}
+.index-a{
+	margin-left: 32%;
+}
+
+.admin-a{
+	margin-left: 20%;
+}
+
+.about{
+	margin-top: 10%;
+	font-family: Helvetica;
+	height:80vh;
+	padding-left:20px;
+	text-align:center;
+	opacity:0.8;
+	background-color:#FFF7E9;
+}
+.about p{
+	padding-top:40px;
+	padding-left:80px;
+	padding-right:80px;
+	font-weight: bold;
+}
+.about img{
+	width:200px;
+	height:150px;
+	margin-right:40px;
+}
+
+.party_img{
+	width:30px;
+	height:30px;
+	
+}
+
+.checkTable{
+	background-color:white;
+	height:fit-content;
+	display:inline-grid;
+	justify-content:center;
+	align-items:center;
+	overflow-x:scroll;
+	overflow-y:scroll;
+}
+
+.checkTable img{
+	height:50px;
+	width:50px;
+}
+
+.checkTable td,th{
+	padding: 10px 20px;
+}
