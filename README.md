@@ -8,8 +8,8 @@ This project is an online voting system that allows voters to cast their votes f
   Data redundancy: The system ensures the integrity of voting results by using data redundancy techniques.
   
 ## Technology Stack
-  Front-end: HTML, CSS, JavaScript
-  Back-end: PHP, MySQL
+  **Front-end :** HTML, CSS, JavaScript
+  **Back-end:** PHP, MySQL
 
 ## Setup Instructions
   Clone the repository to your local machine.
